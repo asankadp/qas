@@ -255,6 +255,7 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   font-weight: 600 !important;
 }
 .autocomplete-suggestions {
+  width: 472px !important;
   font-family: "gordita", Helvetica, Arial, sans-serif;
   background: #ffffff;
   cursor: default;
@@ -270,7 +271,7 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   overflow: hidden;
 }
 .autocomplete-no-suggestion {
-  padding: 6px 12px;
+  padding: 6px 10px;
 }
 .autocomplete-selected {
   background: #f0f0f0;
