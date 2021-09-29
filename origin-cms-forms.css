@@ -255,6 +255,7 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   font-weight: 600 !important;
 }
 .autocomplete-suggestions {
+  font-size: 14px !important;
   width: 472px !important;
   font-family: "gordita", Helvetica, Arial, sans-serif;
   background: #ffffff;
