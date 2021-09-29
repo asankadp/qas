@@ -255,7 +255,7 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   font-weight: 600 !important;
 }
 .autocomplete-suggestions {
-  font-size: 14px !important;
+  /*font-size: 14px !important;*/
   width: 472px !important;
   font-family: "gordita", Helvetica, Arial, sans-serif;
   background: #ffffff;
@@ -280,4 +280,20 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
 .autocomplete-suggestions strong {
   font-weight: bold;
   color: #000;
+}
+
+.checkCircle {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='currentColor' color='%23a5bb48' role='img'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z'%3E%3C/path%3E%3C/svg%3E") !important;
+  background-position: right 10px top 50% !important;
+  background-size: 1.5em !important;
+  background-repeat: no-repeat !important;
+  padding: 20px 48px 8px 12px !important;
+}
+
+.redErrorTick {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='currentColor' color='%23ec0000' aria-label='Tick icon' role='img'%0A%3E%3Cpath d='M0 0h24v24H0z' fill='none'%3E%3C/path%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z' %3E%3C/path%3E%3C/svg%3E%0A") !important;
+  background-position: right 10px top 50% !important;
+  background-size: 1.5em !important;
+  background-repeat: no-repeat !important;
+  padding: 20px 48px 8px 12px !important;
 }
