@@ -294,7 +294,8 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   background-size: 1.5em !important;
   background-repeat: no-repeat !important;
   padding: 20px 48px 8px 12px !important;
-  border-bottom-color: #EC0000FF !important;
+  border-bottom-color: red !important;
+  border-bottom-width: 2px !important;
 }
 
 input:disabled {
