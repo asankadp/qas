@@ -301,6 +301,7 @@ input:disabled {
   opacity: 0.33;
 }
 .errorMsg{
+  font-size: 14px;
   background-color: rgba(236, 0, 0, 0.08) !important;
   color: #7b0000 !important;
   border: 1px solid rgba(236, 0, 0, 0.08) !important;
