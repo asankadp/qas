@@ -228,9 +228,10 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
   margin: 4px 0 0 0px;
 }
 
-fsBody .fsSubField.fsFieldCity {
-  width: calc(55% - 10px);
+.fsBody .fsSubField.fsFieldCity {
+  width: calc(55% - 10px) !important;
 }
+
 .fsBody .fsSubField.fsFieldZip {
   width: 15% !important;
 }
@@ -302,13 +303,13 @@ fsBody .fsSubField.fsFieldCity {
   background-size: 1.5em !important;
   background-repeat: no-repeat !important;
   padding: 20px 48px 8px 12px !important;
-  border-bottom-color: #EC0000FF !important;
+  border-bottom-color: #ec0000ff !important;
 }
 
 input:disabled {
   opacity: 0.33;
 }
-.errorMsg{
+.errorMsg {
   font-size: 14px;
   background-color: rgba(236, 0, 0, 0.08) !important;
   color: #7b0000 !important;
