@@ -227,6 +227,14 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
 .fsBody .fsSupporting {
   margin: 4px 0 0 0px;
 }
+
+fsBody .fsSubField.fsFieldCity {
+  width: calc(55% - 10px) !important;
+}
+.fsBody .fsSubField.fsFieldZip {
+  width: 15% !important;
+}
+
 .material-icons.md-12 {
   font-size: 12px;
 }
