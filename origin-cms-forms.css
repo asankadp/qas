@@ -229,7 +229,7 @@ div.fsCell.fsSpan100.fsFieldFocused.fsFieldFocused {
 }
 
 fsBody .fsSubField.fsFieldCity {
-  width: calc(55% - 10px) !important;
+  width: calc(55% - 10px);
 }
 .fsBody .fsSubField.fsFieldZip {
   width: 15% !important;
